@@ -1,0 +1,6 @@
+pytz
+colorama
+psutil
+pySMART
+requests
+Jinja2
