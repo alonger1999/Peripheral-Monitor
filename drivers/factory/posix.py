@@ -39,6 +39,9 @@ class DriveFactory:
     def __init__(self, path: str) -> None:
         self.__device = Device(path)
 
+    def update(self) -> None:
+        self.__device.update()
+
     def get_model(self) -> str:
         return self.__device.model
 

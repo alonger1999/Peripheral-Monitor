@@ -111,6 +111,8 @@ class Drive(Driver):
 
         try:
 
+            self.__factory.update()
+
             model = self.__factory.get_model()
             temperature = self.__factory.get_temperature()
             temperatures = self.__factory.get_temperatures()
